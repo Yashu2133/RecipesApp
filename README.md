@@ -26,6 +26,7 @@ A backend CRUD application for managing recipes, built using **Node.js**, **Expr
 
 ## 📁 Folder Structure
 
+```
 RecipesApp/
 │
 ├── controllers/
@@ -47,6 +48,8 @@ RecipesApp/
 ├── server.js # Entry point
 ├── package.json
 └── README.md
+
+```
 
 ---
 
