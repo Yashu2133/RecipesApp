@@ -96,3 +96,52 @@ Base URL: `http://localhost:PORT/api/v1/recipes`
 1.All routes include try-catch blocks for exception safety.
 2.Proper 404 handler via errorRoute.js.
 3.Logs every incoming request using custom logger.js.
+
+---
+
+## 🌐 Live Demo
+
+You can access the live project here:
+🔗 **Hosted URL**: [https://recipesapp-tlep.onrender.com]
+
+To use the API routes, append the appropriate path:
+
+* `GET /api/v1/recipes` – Get all recipes
+* `GET /api/v1/recipes/:id` – Get a specific recipe
+* `POST /api/v1/recipes` – Add a new recipe
+* `PUT /api/v1/recipes/:id` – Update a recipe
+* `DELETE /api/v1/recipes/:id` – Delete a recipe
+
+---
+
+## 📬 API Documentation
+
+Postman documentation is publicly available here:
+🔗 **Postman Docs**: [https://documenter.getpostman.com/view/35311398/2sB3B8rtAd]
+
+---
+
+
+## 📝 How to Run Locally
+
+1. Clone the repo:
+
+   ```bash
+   git clone <your-repo-url>
+   ```
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+3. Add your MongoDB URI in a `.env` file:
+
+   ```env
+   MONGO_URI=your_mongodb_connection_string
+   PORT=3001
+   ```
+4. Start the server:
+
+   ```bash
+   npm start
+   ```
